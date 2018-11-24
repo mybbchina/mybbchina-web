@@ -1,3 +1,0 @@
-http://test.com
-http://google.com
-ddd.com
