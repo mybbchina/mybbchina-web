@@ -1,0 +1,66 @@
+			<div id="content">				<div id="sidebar" style="margin-top: -10px;">
+					<div class="item">
+					<div class="sidebar_top"><div class="right"></div></div>
+						<h3><a href="[mybbchina:siteurl]/contact/piracy">举报盗版</a></h3>
+						<p>如果您怀疑某论坛违反了MyBB<a href="[mybbchina:siteurl]/about/license">许可协议</a>,可以将其报告给我们。</p>
+						<p><a href="[mybbchina:siteurl]/contact/piracy">报告违规</a></p>
+					<div class="sidebar_bottom"><div class="right"></div></div>
+					</div>
+				</div>
+				<div id="page" style="margin-top: -10px;">
+					<div class="item">
+						<h3>与我们取得联系</h3>
+						<h4>通过电子邮件</h4>
+						<p>填写以下表格，您可以与MyBB组取得联系。我们需要您做的是:填写您的详细联系方式，选择适当的主题，并输入您的邮件地址。</p>
+<p><strong>请不要使用此表与我们联系关于支持MyBB。支持请求将被忽略。</strong>要寻求MyBB支持，见<a href="[mybbchina:siteurl]/support">支持</a>。</p>
+					</div>
+					<div class="item">
+																		<form method="post" action="[mybbchina:siteurl]/contact/">
+							<p class="legend"><strong>注:</strong> 标有星号(<em>*</em>)为必填字段</p>
+							<fieldset>
+							<div class="form_container">
+								<dl>
+									<dt><label for="name">全名: <em>*</em></label></dt>
+									<dd><input type="text" class="textbox" name="name" id="name" size="30" value="" /></dd>
+
+									<dt><label for="email">Email 地址: <em>*</em></label></dt>
+									<dd><input type="text" class="textbox" name="email" id="email" size="30" value="" /></dd>
+
+									<dt><label for="subject">标题: <em>*</em></label></dt>
+									<dd><select name="subject" id="subject">
+										<option value="">&nbsp;</option>
+										<option value="website" >网站相关（不正确的链接，错字，请求）</option>
+										<option value="license" >许可相关（问题，品牌自由购买）</option>
+										<option value="security" >安全相关（安全漏洞的报告）</option>
+										<option value="team-position" >现有团队成员的位置</option>
+										<option value="other" >其他（请在您的邮件中说明）</option>
+									</select></dd>
+
+									<dt><label for="message">正文: <em>*</em></label></dt>
+									<dd><textarea name="message" id="message" cols="40" rows="12"></textarea></dd>
+
+									<dt>验证码: <em>*</em></dt>
+
+									<dd style="width: 475px;">
+										<script type="text/javascript" src="[mybbchina:siteurl]/jscripts/captcha.js"></script>
+										<img src="[mybbchina:siteurl]/captcha/72b0b197ceddd5782f4d470e4f50904a" alt="验证码图片" id="captcha_img" style="margin-left: 10px; float: right; vertical-align: middle;"/>
+										<p>请输入图片中的文字在下面的文本框中。</p>
+										<script type="text/javascript">
+document.write('<p>看不清? <a href="#" onclick="captcha.refresh(); return false;">点击换一个新的.<\/a><\/p>');
+</script>
+										<p><input type="text" class="textbox captcha" name="image_string" id="image_string" size="10" /></p>
+							
+										<input type="hidden" name="image_hash" value="72b0b197ceddd5782f4d470e4f50904a" id="image_hash" />
+
+									</dd>
+
+								</dl>
+							</div>
+							<p class="submit">
+								<input type="submit" value="提交" />
+							</p>
+							</fieldset>
+						</form>
+						</div>
+					</div>
+			</div>

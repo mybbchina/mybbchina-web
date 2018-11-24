@@ -1,0 +1,55 @@
+			<div id="content">				<div id="sidebar" style="margin-top: -10px;">
+					<div class="item">
+					<div class="sidebar_top"><div class="right"></div></div>
+							<h3><a href="[mybbchina:siteurl]/contact">联系我们</a></h3>
+							<p>如果您需要联系MyBB组，请<a href="[mybbchina:siteurl]/contact">联系我们</a>。</p>
+					<div class="sidebar_bottom"><div class="right"></div></div>
+					</div>
+				</div>
+				<div id="page" style="margin-top: -10px">
+					<div class="item">
+						<h3>报告MyBB盗版</h3>
+						<h4>MyBB组对待盗版非常认真</h4>
+						<p>填写以下表格提交一个你认为是违反了我们的<a href="[mybbchina:siteurl]/about/license">许可协议</a>的论坛委员会。这包括版权删除或更改或重新发布MyBB而没有坚持MyBB许可。</p>
+						<p>联系人的电子邮件地址和信息是可选的。</p>
+					</div>
+					<div class="item">
+						<form method="post" action="[mybbchina:siteurl]/contact/piracy">
+							<fieldset>
+							<div class="form_container">
+								<dl>
+									<dt><label for="url">论坛或网站的 URL:</label></dt>
+									<dd><input type="text" class="textbox" name="url" id="url" size="30" value="" /></dd>
+
+									<dt><label for="email">Email 地址: (可选)</label></dt>
+									<dd><input type="text" class="textbox" name="email" id="email" size="30" value="" /></dd>
+
+									<dt><label for="message">正文: (可选)</label></dt>
+									<dd><textarea name="message" id="message" cols="40" rows="12"></textarea></dd>
+
+									<dt>验证码</dt>
+
+									<dd style="width: 475px;">
+										<script type="text/javascript" src="[mybbchina:siteurl]/jscripts/captcha.js"></script>
+										<img src="[mybbchina:siteurl]/captcha/7c88841a956fd5f27a5eb1c128330e1b" alt="Image Verification" id="captcha_img" style="margin-left: 10px; float: right; vertical-align: middle;"/>
+										<p>请输入图片中的文字在下面的文本框中。</p>
+										<script type="text/javascript">
+//<![CDATA[
+document.write('<p>Can\'t read the image? <a href="#" onclick="captcha.refresh(); return false;">Fetch a new one.<\/a><\/p>');
+//]]></script>
+										<p><input type="text" class="textbox captcha" name="image_string" id="image_string" size="10" /></p>
+							
+										<input type="hidden" name="image_hash" value="7c88841a956fd5f27a5eb1c128330e1b" id="image_hash" />
+
+									</dd>
+								</dl>
+							</div>
+							<p class="submit">
+								<input type="submit" value="Send Report" />
+							</p>
+							</fieldset>
+						</form>
+					</div>
+
+				</div>
+			</div>
