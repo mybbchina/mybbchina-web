@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<title>MyBB - Mailing List</title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<meta name="author" content="MyBB Group" />
+	<meta name="copyright" content="Copyright MyBB Group." />
+	<meta name="description" content="The official homepage for MyBB, a free PHP and MySQL based discussion system." />
+	<meta name="keywords" content="mybb,mybboard,mybulletinboard,php,mysql,forum,discussion,bbs,bulletin,board,free,software,community,chat" />
+	<link rel="stylesheet" type="text/css" href="http://www.mybboard.net/assets/screen.css?xmas" />
+	<!--[if IE]>
+	<link rel="stylesheet" type="text/css" href="http://www.mybboard.net/assets/screen_ie.css?zz" />
+	<![endif]-->
+
+	<link rel="alternate" type="application/rss+xml" title="Announcements (RSS)" href="http://community.mybboard.net/syndication.php?fid=2&limit=5" />
+	<link rel="alternate" type="application/atom+xml" title="Announcements (Atom)" href="http://community.mybboard.net/syndication.php?fid=2&limit=5&type=atom1.0" />
+
+	<script type="text/javascript" src="jscripts/prototype.lite.js"></script>
+	<script type="text/javascript" src="jscripts/general.js"></script>
+	<script type="text/javascript" src="jscripts/moo.ajax.js"></script>
+	<script type="text/javascript" src="jscripts/lightbox.js"></script>
+	<script src="http://www.mybboard.net/mint/?js" type='text/javascript'></script>
+	<!--[if lt IE 7]>
+	<script defer type="text/javascript" src="assets/pngfix.js"></script>
+	<![endif]-->
+	<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		_uacct = "UA-3039715-1";
+		urchinTracker();
+	</script>
+</head>
+<body>
+	<div id="shadow">
+		<div id="container">
+			<!--search:no_index-->
+			<h1><span class="invisible">MyBB</span></h1>
+			<div id="header">
+			<a class="link" href="index.html"></a>
+				<div id="search">
+					<form action="/search" method="get"><fieldset><label for="search_box"><span id="search_left">&nbsp;</span></label><input type="text" name="query" id="search_box" title="Enter your search keywords" /><input type="submit" value="Search" name="submit-search" id="search_button" /></fieldset></form>
+				</div>
+				<div id="menu">
+				<ul>
+					<li class="default"><a href="/">Home</a></li>
+<li class="default"><a href="about">About</a></li>
+<li class="default"><a href="downloads">Downloads</a></li>
+<li class="default"><a href="http://community.mybboard.net/">Community Forum</a></li>
+<li class="default"><a href="features">Features</a></li>
+<li class="default"><a href="support.html">Support</a></li>
+<li class="default"><a href="http://ideas.mybboard.net/">Ideas</a></li>
+<li class="default"><a href="http://mods.mybboard.net/">Mods</a></li>
+<li class="default"><a href="http://wiki.mybboard.net/">Wiki</a></li>
+<li class="default"><a href="http://blog.mybboard.net/">Blog</a></li>
+
+				</ul>
+				</div>
+			</div>
+			<!--/search:no_index-->
+			<div id="content"><div id="primer">
+	<div class="primer_top"><div class="right"></div></div>
+	<img src="assets/images/icons_large/exclamation.png" alt="" class="float_right" style="top:0px;" width="45" height="45" />
+	<h2>Announcements Mailing List</h2>
+	<p>We provide a mailing list you can subscribe to where you'll receive instant notification of updates to MyBB including new releases, code updates and development updates.</p>
+	<div class="primer_bottom"><div class="right"></div></div>
+</div>
+
+<div id="sidebar">
+		<!--FF_IGNORE-->
+	<div class="item">
+		<div class="sidebar_top"><div class="right"></div></div>
+		<h3>User feedback</h3>
+		<p>&quot;MyBB is the perfect forum software. It combines easy customization, helpful support, powerful and secure code, and user-friendly forums. Oh, and the fact that it&#039;s free helps too.&quot; &mdash; <a href="http://krismedia.com">Kris</a></p>
+		<div class="sidebar_bottom"><div class="right"></div></div>
+	</div>
+	<!--FF_END_IGNORE-->
+</div>
+
+<div id="page">
+			<div class="item">
+			<h3>Subscribe to the Mailing List</h3>
+			<h4>... to receive the latest updates to MyBB via email</h4>
+			<p>If you wish to subscribe to the MyBB mailing list please enter your email address below, check "Subscribe" and submit the form. You'll then be sent a confirmation email with steps on what you need to perform next to confirm your subscription.</p>
+
+			<form method="post" action="http://newsletter.mybboard.net/form.php?form=1" id="frmSS1" onsubmit="return CheckForm1(this);">
+			<input type="hidden" name="format" value="h" />
+				<fieldset>
+				<div class="form_container">
+					<dt><label for="email">Email Address:</label></dt>
+					<dd><input type="text" class="textbox" name="email" id="email" size="30" value="" /></dd>
+				</div>
+				<p class="submit">
+					<input type="submit" value="Subscribe" />
+				</p>
+				</fieldset>
+			</form>
+			<script language="javascript">
+
+						function CheckMultiple1(frm, name) {
+							for (var i=0; i < frm.length; i++)
+							{
+								fldObj = frm.elements[i];
+								fldId = fldObj.id;
+								if (fldId) {
+									var fieldnamecheck=fldObj.id.indexOf(name);
+									if (fieldnamecheck != -1) {
+										if (fldObj.checked) {
+											return true;
+										}
+									}
+								}
+							}
+							return false;
+						}
+					function CheckForm1(f) {
+						if (f.email.value == "" || f.email.value == "email@example.com") {
+							alert("Please enter your email address.");
+							f.email.select();
+							f.email.focus();
+							return false;
+						}
+
+							return true;
+						};
+
+			</script>			
+			
+			<h3>Unsubscribe from the MyBB Mailing List</h3>
+			<h4>... to no longer receive the latest MyBB updates via email</h4>
+			<p>To unsubscribe from the MyBB mailing list please enter your email address below, check "Unsubscribe" and submit the form. You'll be sent an email containing instructions on how to remove yourself from the list.</p>
+	
+			<form method="post" action="http://newsletter.mybboard.net/unsubform.php?form=2" onsubmit="return CheckForm2(this);">
+				<fieldset>
+				<div class="form_container">
+					<dt><label for="email">Email Address:</label></dt>
+					<dd><input type="text" class="textbox" name="email" id="email" size="30" value="" /></dd>
+				</div>
+				<p class="submit">
+					<input type="submit" value="Unsubscribe" />
+				</p>
+				</fieldset>
+			</form>
+			
+			<script language="javascript">
+
+						function CheckMultiple2(frm, name) {
+							for (var i=0; i < frm.length; i++)
+							{
+								fldObj = frm.elements[i];
+								fldId = fldObj.id;
+								if (fldId) {
+									var fieldnamecheck=fldObj.id.indexOf(name);
+									if (fieldnamecheck != -1) {
+										if (fldObj.checked) {
+											return true;
+										}
+									}
+								}
+							}
+							return false;
+						}
+					function CheckForm2(f) {
+						if (f.email.value == "" || f.email.value == "email@example.com") {
+							alert("Please enter your email address.");
+							f.email.select();
+							f.email.focus();
+							return false;
+						}
+
+							return true;
+						};
+
+			</script>			
+		</div>
+	</div>
+			</div>
+			<!--FF_IGNORE-->
+			<div id="footer">
+				<!--<p>Header image: <a href="http://flickr.com/photos/blueron48/1314744825/">Hot Air Balloons and Lake by blueron48</a>.</p>-->
+				<p>Header Image: <a href="http://www.flickr.com/photos/krisdecurtis/2104624897/">Christmas in Love... by krisdecurtis</a>.</p>
+				<p>Copyright &copy; 2008 MyBB Group. All rights reserved.</p>
+				<p><a href="contact">Contact</a> MyBB Group &mdash; <em>for support with MyBB, visit <a href="support.html">support</a></em></p><br />
+			</div>
+		</div>  
+	</div>
+	<div id="shadow_footer"></div>
+	<!--FF_END_IGNORE-->
+</body>
+</html>
+

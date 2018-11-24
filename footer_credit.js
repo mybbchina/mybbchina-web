@@ -1,0 +1,1 @@
+document.write('<p>Header Image: <a href="http://flickr.com/photos/stuckincustoms/2746960560/" target="_blank">A Perfect Morning at Glacier National Park by Stuck in Customs</a>.</p>');
